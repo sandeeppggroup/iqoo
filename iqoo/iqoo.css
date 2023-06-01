@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-box{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background:#1a1a1a;
+    border: none;
+
+}
+.iqoologo{
+    position: relative;
+    float: left;
+    width: 158px;
+    height: 60px;
+    margin-left: 153px;
+    background: #1a1a1a;
+}
+.iqoo-logo{
+    
+    width: 92px;
+    height: 60px;
+    margin-left: 10px;
+    top: 0;
+    float: left;
+    z-index: 10001;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+.iqoo-logo:hover{
+    opacity: 1;
+}
+.menu-box{
+    
+    
+    width: 1006px;
+    height: 43px;
+    background: #1a1a1a;
+}
+.a{
+    margin-top: 5px;
+    color: white;
+    margin-left: 21px;
+    font-size: 14px;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.a:hover{
+    
+    color: rgb(229, 108, 55);
+}
+.icon{
+    margin-top: 23px;
+    height: 34px;
+    width: 140px;
+    background: #1a1a1a;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.icon:hover{
+    
+    color: rgb(229, 108, 55);
+}
+
+.center-container{
+    width: 100%;
+    height: 750px;
+    background: gray;
+}
+.iqoo-pic1{
+    width: 100%;
+    height: 750px;
+}
+.img-container{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background:#554c69;
+    border: none;
+}
+.img1{
+    width: 25%;
+    height: 300px;
+    background:#554c69;
+    border: none;
+}
+.pic1{
+    width: 100%;
+    height: 300px;
+    background:#554c69;
+    border-style: solid;
+    border-color: white;
+}
+
+.container-list{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.list1{
+    width:25%;
+    height: 300px;
+    
+}
+
+.list2{
+    width:25%;
+    height: 300px;
+}
+
+.list3{
+    width:25%;
+    height: 300px;
+}
+
+.list4{
+    width:25%;
+    height: 300px;
+    
+}
+
+.hd1{
+    margin-left: 110px;
+    list-style: none;
+    font-size: large;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+
+.para1{
+    margin-left: 110px;
+    list-style: none;
+    color: #999;
+    cursor: pointer;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 14px;
+}
+
+.para1:hover{
+    color: rgb(255, 166, 0);
+}
+
+
+.hd2{
+    margin-left: 1px;
+    list-style: none;
+    font-size: large;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+.para2{
+    list-style: none;
+    color: #999;
+    cursor: pointer;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 14px;
+}
+.para2:hover{
+    color: rgb(255, 166, 0);
+}
+.eml-numb{
+    list-style: none;
+    color: black;
+    cursor: pointer;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 17px;
+}
+.eml-numb:hover{
+    color: rgb(255, 166, 0);
+}
+
+.button{
+    height: 50px;
+    background-color: rgb(176, 176, 176);
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.button1{
+    height: 50px;
+    background-color: rgb(176, 176, 176);
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.bot{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #554c69;
+    border: #999;
+}
+.box1{
+    list-style: none;
+    width: 80%;
+    height: 100px;
+    background: white;
+}
+.box2{
+    width: 20%;
+    height: 100px;
+    background: white;
+}
+.para3{
+    display: inline-block;
+    margin-left: 45px;
+    list-style: none;
+    color: #999;
+    cursor: pointer;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 14px;
+    transition: color .5s;
+}
+.para3:hover{
+    
+    color: rgb(255, 166, 0);
+}
+
+.underline{
+    width: 80%;
+}
+.bottom-contnt{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 65px;
+    cursor: pointer;
+    list-style: none;
+    color: #999;
+    cursor: pointer;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 14px;
+    transition: color .5s;
+}
+.bottom-contnt:hover{
+    
+    color: rgb(255, 166, 0);
+}
+.footer{
+    display: flex;
+    width: 100;
+    height: 65px;
+    background: black;
+}
+.footer-content{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 500px;
+    
+    list-style: none;
+    color: #999;
+    
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 13px;
+    
+}
